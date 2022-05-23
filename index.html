@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Core 14</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!--<form name="f1">-->
+<!--  <input type="text" name="email" placeholder="Input your email">-->
+<!--  <input type="password" name="password" placeholder="Input your password">-->
+<!--  <input type="button" name="button" value="save">-->
+<!--</form>-->
+
+<!--<form name="f2">-->
+<!--  <input type="radio" name="radio" value="red"> Red-->
+<!--  <input type="radio" name="radio" value="green"> Green-->
+<!--  <input type="radio" name="radio" value="blue"> Blue-->
+<!--  <input type="radio" name="radio" value="yellow"> Yellow-->
+<!--  <input type="radio" name="radio" value="white"> White-->
+<!--</form>-->
+
+<!--<form name="f3">-->
+<!--  <input type="checkbox" name="checkbox"> Show text-->
+<!--  <div class="form-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae deserunt libero maiores perferendis sunt tempore? Blanditiis, eum, repellat. Minima, vitae.</div>-->
+<!--</form>-->
+
+<!--<form name="f4">-->
+<!--  <select name="colors">-->
+<!--    <option value="transparent" selected="true" disabled>Choose your color</option>-->
+<!--    <option value="red">Red</option>-->
+<!--    <option value="green">Green</option>-->
+<!--    <option value="blue">Blue</option>-->
+<!--    <option value="yellow">Yellow</option>-->
+<!--    <option value="white">White</option>-->
+<!--  </select>-->
+<!--</form>-->
+
+<!--<form name="f5">-->
+<!--  <input type="text" name="text">-->
+<!--  oninput: <span id="result"></span>-->
+<!--</form>-->
+
+<button id="open-registration">Registration</button>
+<div class="messages"></div>
+<form class="registration" name="registration">
+  <label for="name">Name</label>
+  <input id="name" type="text" name="name" placeholder="Input your name">
+  <label for="email">Email</label>
+  <input id="email" type="text" name="email" placeholder="Input your email">
+  <label for="password">Password</label>
+  <input id="password" type="password" name="password" placeholder="Input your password">
+  <label for="password_repeat">Repeat password</label>
+  <input id="password_repeat" type="password" name="password_repeat" placeholder="Input your password again">
+  <input name="submit_button" type="button" value="Submit">
+</form>
+
+<form class="login" name="login">
+  <label for="email-login">Email</label>
+  <input id="email-login" type="text" name="email-login" placeholder="Input your email">
+  <label for="password-login">Password</label>
+  <input id="password-login" type="password" name="password-login" placeholder="Input your password">
+  <input name="submit_button_login" type="button" value="Submit">
+</form>
+
+<!--<div id="success"></div>-->
+<script src="script.js"></script>
+</body>
+</html>
